@@ -19,7 +19,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.kazuki</groupId>
   <artifactId>oss-parent</artifactId>
-  <version>0-SNAPSHOT</version>
+  <version>1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Kazuki OSS parent pom</name>
   <description>Kazuki OSS parent pom</description>
@@ -47,7 +47,7 @@
     <url>http://github.com/kazukidb/oss-parent</url>
     <connection>scm:git:ssh://github.com/kazukidb/oss-parent.git</connection>
     <developerConnection>scm:git:git+ssh://git@github.com/kazukidb/oss-parent.git</developerConnection>
-    <tag>oss-parent-11</tag>
+    <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>GitHub Issue Management</system>
