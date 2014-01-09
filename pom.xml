@@ -19,7 +19,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.kazuki</groupId>
   <artifactId>oss-parent</artifactId>
-  <version>2.0.0-SNAPSHOT</version>
+  <version>2.0.0</version>
   <packaging>pom</packaging>
   <name>Kazuki OSS parent pom</name>
   <description>Kazuki OSS parent pom</description>
@@ -40,14 +40,14 @@
     <developer>
       <id>sunnygleason</id>
       <name>Sunny Gleason</name>
-      <email/>
+      <email />
     </developer>
   </developers>
   <scm>
     <url>http://github.com/kazukidb/oss-parent</url>
     <connection>scm:git:ssh://github.com/kazukidb/oss-parent.git</connection>
     <developerConnection>scm:git:git+ssh://git@github.com/kazukidb/oss-parent.git</developerConnection>
-    <tag>oss-parent-1</tag>
+    <tag>oss-parent-2.0.0</tag>
   </scm>
   <issueManagement>
     <system>GitHub Issue Management</system>
@@ -77,9 +77,9 @@
     -->
     <osgi.export>${project.groupId}.*;version=${project.version}</osgi.export>
     <osgi.import>*</osgi.import>
-    <osgi.dynamicImport/>
-    <osgi.private/>
-    <osgi.requiredExecutionEnvironment/>
+    <osgi.dynamicImport />
+    <osgi.private />
+    <osgi.requiredExecutionEnvironment />
     <osgi.versionpolicy>${range;[===,=+);${@}}</osgi.versionpolicy>
     <!--
      | shared build/report plugins version
