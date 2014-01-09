@@ -228,6 +228,7 @@
             </execution>
           </executions>
           <configuration>
+            <ignoreErrors>true</ignoreErrors>
             <file>${packageVersion.template.input}</file>
             <outputFile>${packageVersion.template.output}</outputFile>
             <replacements>
